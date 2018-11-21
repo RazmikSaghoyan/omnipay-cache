@@ -3,7 +3,7 @@
  * Manual Gateway Request
  */
 
-namespace Omnipay\Manual\Message;
+namespace Omnipay\Cache\Message;
 
 use Omnipay\Common\Message\AbstractRequest;
 

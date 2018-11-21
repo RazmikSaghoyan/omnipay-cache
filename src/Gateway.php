@@ -1,9 +1,9 @@
 <?php
 /**
- * Manual Gateway
+ * Cache Gateway
  */
 
-namespace Omnipay\Manual;
+namespace Omnipay\Cache;
 
 use Omnipay\Common\AbstractGateway;
 
