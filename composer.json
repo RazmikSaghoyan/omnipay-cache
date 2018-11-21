@@ -1,39 +1,28 @@
 {
-    "name": "omnipay/manual",
+    "name": "omnipay/cache",
     "type": "library",
-    "description": "Manual driver for the Omnipay payment processing library",
+    "description": "Cache Manual driver for the Omnipay payment processing library",
+    "homepage": "https://github.com/RazmikSaghoyan/omnipay-cache",
+    "license": "MIT",
     "keywords": [
         "gateway",
         "manual",
+        "cache",
         "merchant",
         "omnipay",
         "pay",
         "payment"
     ],
-    "homepage": "https://github.com/thephpleague/omnipay-manual",
-    "license": "MIT",
     "authors": [
         {
-            "name": "Adrian Macneil",
-            "email": "adrian@adrianmacneil.com"
-        },
-        {
-            "name": "Omnipay Contributors",
-            "homepage": "https://github.com/thephpleague/omnipay-manual/contributors"
+            "name": "Razmik Saghoyan",
+            "email": "razmiksaghoyan@gmail.com"
         }
     ],
     "autoload": {
-        "psr-4": { "Omnipay\\Manual\\" : "src/" }
+        "psr-4": { "Omnipay\\Cache\\" : "src/" }
     },
     "require": {
         "omnipay/common": "^2.0||^3.0"
-    },
-    "require-dev": {
-        "omnipay/tests": "^2.0||^3.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.0.x-dev"
-        }
     }
 }
