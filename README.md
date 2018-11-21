@@ -1,10 +1,6 @@
-# Omnipay: Manual
+# Omnipay: Cache Manual
 
-**Manual driver for the Omnipay PHP payment processing library**
-
-[![Build Status](https://travis-ci.org/thephpleague/omnipay-manual.png?branch=master)](https://travis-ci.org/thephpleague/omnipay-manual)
-[![Latest Stable Version](https://poser.pugx.org/omnipay/manual/version.png)](https://packagist.org/packages/omnipay/manual)
-[![Total Downloads](https://poser.pugx.org/omnipay/manual/d/total.png)](https://packagist.org/packages/omnipay/manual)
+**Manual (Pay by Cache) driver for the Omnipay PHP Cache payment processing library**
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements Manual support for Omnipay.
@@ -16,14 +12,8 @@ to your `composer.json` file:
 
 ```json
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@github.com:RazmikSaghoyan/omnipay-manual.git"
-        }
-    ],
     "require": {
-        "omnipay/manual": "dev-master",
+        "razmiksaghoyan/omnipay-cache": "dev-master"
     }
 }
 
@@ -53,5 +43,5 @@ If you want to keep up to date with release anouncements, discuss ideas for the 
 or ask more detailed questions, there is also a [mailing list](https://groups.google.com/forum/#!forum/omnipay) which
 you can subscribe to.
 
-If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/thephpleague/omnipay-manual/issues),
+If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/RazmikSaghoyan/omnipay-cache/issues),
 or better yet, fork the library and submit a pull request.
