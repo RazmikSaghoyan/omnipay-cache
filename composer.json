@@ -20,7 +20,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Omnipay\\Cache\\" : "src/" }
+        "psr-4": { "Omnipay\\Manual\\" : "src/" }
     },
     "require": {
         "omnipay/common": "^2.0||^3.0"
